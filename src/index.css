@@ -1,0 +1,32 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+
+body {
+  background-color: dimgrey;
+  padding: 60px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgb(75, 73, 73);
+}
+
+.gridCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gridItem {
+  justify-content: space-between;
+  text-align: center;
+  color: azure;
+}
+
+.gridItem img {
+
+  height: 200px;
+}
